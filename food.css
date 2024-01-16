@@ -1,0 +1,110 @@
+*{
+    box-sizing: content-box;
+}
+.bg-container{
+    margin-bottom: 10px;
+}
+.container{
+    background-image:linear-gradient(to right,rgb(234, 234, 61),rgb(229, 83, 175)) ;
+    
+}
+.navbar{
+    background-color: rgb(204, 53, 53);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    height:50px;
+}
+
+.burger-image{
+    height: 100vh;
+    
+
+}
+
+.burger-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    color:black;
+    padding:25px;
+    margin: 25px;
+}
+
+.description{
+    color:black;
+    padding:45px;
+    margin: 25px;
+}
+
+.button{
+    background-color: brown;
+    color: white;
+    border: 0px;
+    height:25px;
+    width:100px;
+    margin-left: 55px;
+}
+.hotel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.small-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height:100vh;
+    background-image:linear-gradient(to right,rgb(234, 234, 61),rgb(229, 83, 175)) ;
+
+
+}
+.hostel-1{
+    height:130px;
+    margin-bottom: 6px;
+    width:200px;
+}
+.hostel-2{
+    height:130px;
+    margin-top: 6px;
+    width:200px;
+   
+    
+}
+
+.food-image{
+    margin-left:15px;
+    margin-right:15px;
+    width:180px;
+}
+
+.card-container{
+    background-color: rgb(244, 76, 76);
+    height:170px;
+    width:300px;
+    padding-left: 10px;
+}
+
+.lorem{
+    font-size: 23px;
+}
+
+.click{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.arrow-symbol{
+    height:20px;
+    width:30px;
+    padding:15px;
+}
